@@ -1,0 +1,31 @@
+#普通数据配置
+name: zhangsan
+
+#对象的配置
+person:
+  name: zhangsan
+  age: 18
+  addr: beijing
+
+#行内对象的配置
+#person: {name: zhangsan,age: 18,addr: beijing }
+
+#配置数组，集合（普通字符串）
+city:
+  - beijing
+  - shanghai
+  - chongqing
+  - changsha
+
+#city: [beijing,shanghai,chongqing,changsha]
+
+#配置数组，集合（对象数据）
+student:
+  - name: chen
+    age: 22
+    addr: wuhan
+  - name: tom
+    age: 20
+    addr: changsha
+
+#student: [{name: chen,age: 22,addr: wuhan},{name: tom,age: 20,addr: changsha}]
